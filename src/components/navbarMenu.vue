@@ -1,4 +1,5 @@
 <template>
+    <link rel="stylesheet" href="css/menu_navegacion.css">
     <nav class="nav">
         <ul class="nav__list">
 
@@ -18,10 +19,10 @@
                 <a class="nav__item__link  nav__item__link--hover" href="#enlace4">enlace4</a>
             </li>
         </ul>
+        
     </nav>
 </template>
 
 <script setup>
 </script>
 
-<style scoped></style>
