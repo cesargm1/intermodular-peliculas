@@ -1,3 +1,32 @@
-nav{
-    background-color: black;
+@use "_variables";
+
+.main__nav{
+    background-color: variables.$color-navbar-bg;
+    padding: 1em;
+
+    &__list{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__item{
+        list-style: none;
+
+        &__link{
+            text-decoration: none;
+            color: variables.$color-navbar-text;
+        }
+
+        &__link:hover{
+            color:variables.$color-navbar-hover;
+        }
+
+        &__link:active{
+            color: variables.$color-navbar-active;
+        }
+    }
+
+    
+
 }
+
