@@ -1,0 +1,14 @@
+.body__footer {
+  background-color: #0f171b;
+  padding: 1em;
+}
+.body__footer__ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.body__footer__ul__li {
+  list-style: none;
+  color: #87bddb;
+}
+
+/*# sourceMappingURL=footer.css.map */

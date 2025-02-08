@@ -1,22 +1,22 @@
-.main__nav {
+.body__nav {
   background-color: #162730;
   padding: 1em;
 }
-.main__nav__list {
+.body__nav__list {
   display: flex;
   justify-content: space-evenly;
 }
-.main__nav__item {
+.body__nav__item {
   list-style: none;
 }
-.main__nav__item__link {
+.body__nav__item__link {
   text-decoration: none;
   color: #ffffff;
 }
-.main__nav__item__link:hover {
+.body__nav__item__link:hover {
   color: #1c97c5;
 }
-.main__nav__item__link:active {
+.body__nav__item__link:active {
   color: #2083aa;
 }
 

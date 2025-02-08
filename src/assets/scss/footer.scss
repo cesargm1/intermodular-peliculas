@@ -1,0 +1,16 @@
+@use "_variables";
+
+.body__footer{
+    background-color: variables.$color-footer-bg;
+    padding: 1em;
+
+    &__ul{
+        display: flex;
+        justify-content: space-evenly;
+
+        &__li{
+            list-style: none;
+            color: variables.$color-footer-text;
+        }
+    }
+}

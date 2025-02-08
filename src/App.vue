@@ -1,11 +1,11 @@
 <template>
-  <navbarMenu></navbarMenu>
-  <!-- <particlesBadground></particlesBadground> -->
+ <!-- <particlesBadground></particlesBadground> -->
+ <page></page>
 </template>
 
 <script setup>
-import navbarMenu from "/src/components/navbarMenu.vue"
-//import particlesBadground from "./components/particlesBadground.vue";
+// import particlesBadground from "./components/particlesBadground.vue";
+import page from "./components/Page.vue"
 </script>
 
 <style>

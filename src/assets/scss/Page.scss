@@ -1,0 +1,32 @@
+@use './menu_navegacion.scss';
+@use './footer.scss';
+
+
+
+.body{
+    min-height: 100dvh;
+    display: grid;
+    grid-template-areas: "nav nav nav"
+                        "main main main"
+                        "footer footer footer";
+    grid-template-rows: auto 1fr auto;
+
+    &__nav{
+        grid-area: nav;
+    }
+
+    &__main{
+        grid-area: main;
+        background-color: black;
+    }
+
+
+
+    &__footer{
+        grid-area: footer;
+    }
+};
+
+
+
+
